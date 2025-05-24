@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-o41i0s%si)1x7ro*r6cyq@qbxk6_^*c3rc#h1rf0)+wa8v6e&=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['your-ec2-public-ip', 'aerlos.com']
+ALLOWED_HOSTS = ['3.144.248.247', 'ec2-3-144-248-247.us-east-2.compute.amazonaws.com', 'aerlos.com']
 
 
 
