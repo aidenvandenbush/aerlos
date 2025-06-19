@@ -1,1 +1,4 @@
 .vercel
+.venv/
+backend/.venv/
+backend/api/__pycache__/*

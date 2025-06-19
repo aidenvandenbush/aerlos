@@ -137,3 +137,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
